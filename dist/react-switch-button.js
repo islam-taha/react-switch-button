@@ -37,7 +37,7 @@ var SwitchButton = _react2['default'].createClass({
     checked: _react2['default'].PropTypes.string,
     mode: _react2['default'].PropTypes.string,
     onChange: _react2['default'].PropTypes.func,
-    inputRef: _react2['default'].PropTypes.node
+    inputRef: _react2['default'].PropTypes.any
   },
 
   /**

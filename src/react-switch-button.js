@@ -23,7 +23,7 @@ const SwitchButton = React.createClass( {
     checked        : React.PropTypes.string,
     mode           : React.PropTypes.string,
     onChange       : React.PropTypes.func,
-    inputRef       : React.PropTypes.node,
+    inputRef       : React.PropTypes.any,
   },
 
 
